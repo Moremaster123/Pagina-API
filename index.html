@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series API</title>
+
+    <link rel="stylesheet" href="SASS/main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Series API</h1>
+        <p>Busca tus series favoritas</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Buscar una serie</h2>
+
+            <form id="formulario-busqueda">
+                <label for="busqueda">Nombre de la serie:</label>
+                <input type="text" id="busqueda" placeholder="Ejemplo: Batman">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Resultados</h2>
+
+            <div id="resultados"></div>
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
